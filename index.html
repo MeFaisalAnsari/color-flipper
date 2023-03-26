@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="flex justify-between items-center py-5 px-12 shadow-lg bg-white">
+        <h4 class="text-4xl font-bold">Color Flipper</h4>
+        <nav class="flex gap-20 font-semibold text-xl">
+            <a href="./">Simple</a>
+            <a href="hex.html">Hex</a>
+        </nav>
+    </header>
+    <main>
+        <div class="flex flex-col gap-5 min-h-[80vh] justify-center items-center">
+            <div class="text-xl bg-slate-900 text-white p-5 rounded-lg">Background Color : <span
+                    class="color capitalize">White</span>
+            </div>
+            <button class="py-2 px-6 bg-slate-900 text-white font-semibold rounded-lg" id="btn">Click Me</button>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
